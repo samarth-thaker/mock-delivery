@@ -17,6 +17,12 @@ dependencies:
     sdk: flutter
 
   cupertino_icons: ^1.0.8
+  google_maps_flutter: ^2.12.1
+  geolocator: ^14.0.0
+
+# Dependency overrides to fix geolocator_android crash
+dependency_overrides:
+  geolocator_android: ^4.3.9
 
 # Development dependencies
 dev_dependencies:

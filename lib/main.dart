@@ -1,5 +1,6 @@
 import 'package:deliveryapp/dashboard.dart';
 import 'package:deliveryapp/login.dart';
+import 'package:deliveryapp/navigation.dart';
 import 'package:deliveryapp/otpScreen.dart';
 import 'package:flutter/material.dart';
 
@@ -23,6 +24,7 @@ class MyApp extends StatelessWidget {
         '/login': (context) => LoginScreen(),
         '/otpScreen': (context) => Otpscreen(),
         '/dashboardScreen': (context) => DashboardScreen(),
+        '/navigate':(context)=> MapScreen(),
       },
     );
   }
